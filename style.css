@@ -1,0 +1,267 @@
+* {
+    margin: 0; 
+    padding: 0; 
+  }
+  header {
+    
+    background-image: url("img/renovando.png");
+    
+    background-size: -1500px;
+    
+    
+  
+     background-color: #000000; 
+    
+    
+    transition: ease 5s;
+    
+   
+  }
+  header h1 {
+    color: rgb(20, 221, 247); 
+    text-align: arial;
+    text-align: center; 
+    
+  }
+  header nav {
+    background-color: rgba(23, 233, 233, 0.952);
+    text-align: center;
+    padding: 6px;
+  }
+
+header nav ul li {
+  display: inline-block;
+  
+  margin: 5px;
+}
+
+  
+header nav ul li a {
+  color: rgba(0, 0, 0, 0.76);
+  font-family: arial;
+  
+  text-decoration: none;
+}
+
+
+header nav ul li a:hover {
+  color: rgb(190, 0, 0);
+}
+footer {
+    
+    background-color: rgba(7, 125, 129, 0.897);
+   
+    padding: 40px;
+    
+    padding-top: 40px;
+   
+    height: 100px;
+    
+  }
+  footer #end {
+    color: rgb(3, 3, 3);
+    font-family: arial;
+    font-size: 15pt;
+    float: right;
+    
+    
+  
+}
+footer #redes {
+ 
+  float: left;
+}
+footer #redes a {
+ 
+  text-decoration: none;
+}
+
+footer #redes a img {
+ 
+  width: 40px;
+  
+  height: 40px;
+  
+  margin: 7px;
+  
+  transition: ease 0.5s;
+}
+footer #redes a img:hover {
+   
+    transform: rotate(360deg);
+}
+main h2 {
+    font-family: arial;
+    font-size: 20px;
+    padding-top: 0%;
+    
+   
+    
+    
+  }
+  main p {
+    
+    margin-bottom: 12px;
+    
+    text-align: arial;
+    font-size: 12pt;
+  
+   text-align: center;
+   background-color: rgba(10, 10, 10, 0.137);
+
+  }
+  
+  
+  main #imghome img {
+
+    width: 200px; 
+    height: 200px; 
+    
+    margin: 50px;
+    
+    transition: ease 0.5s;
+  }
+
+main #imghome img:hover {
+  
+  
+  transform: scale(1.5);
+}
+h2{
+  color: rgb(15, 15, 15); 
+    font-family: arial; 
+    text-align: center;
+    padding: 40px;
+    
+    padding-top: 40px;
+   
+    height: 40px;
+  
+    
+}
+main h1{
+  
+  font-family: arial; 
+    text-align: center;
+    padding: 10px;
+    
+    text-align: left;
+   
+    height: 20px;
+  font-size: 20px;
+}
+main #imghistoria {
+  text-align: center;
+  
+}
+main #imghistoria img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+  
+
+main #area #conteudo #img img {
+  width: 200px;
+  height: 180px;
+}
+main #area #conteudo #img {
+  
+  width: 210px;
+ 
+  float: left;
+}
+
+main #area #conteudo #texto {
+  width: 800px;
+  
+  float: left;
+}
+
+main #area,
+main #area #conteudo {
+  display: inline-block;
+  width: 90%;
+}
+main #area #conteudo #texto h5 {
+  font-family: arial;
+  font-size: 14pt;
+  margin: 5px;
+}
+main #area #conteudo #texto span {
+  color: red;
+}
+main #area #conteudo {
+ 
+  margin-left: 50px;
+  
+  border-bottom: 1px solid silver;
+}
+main h3 {
+  font-family: arial;
+  font-size: 20pt;
+  
+  margin: 50px;
+}
+
+main #mapa iframe {
+  width: 100%;
+  height: 500px;
+}
+
+form {
+  
+  width: 500px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+
+form span,textarea {
+  display: block;
+  
+  width: 96%;
+  
+  margin: 5px;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 5px;
+  font-family: arial;
+  font-size: 10pt;
+}
+select {
+  margin: 5px;
+}
+textarea {
+  height: 200px;
+}
+
+input[type="submit"] {
+  width: 80px;
+  height: 30px;
+  background-color: #600;
+  
+  border-radius: 10%;
+ 
+  color: #fff;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+  
+  
+  
+  
+  
+  
